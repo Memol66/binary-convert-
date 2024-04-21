@@ -1,0 +1,16 @@
+# Function to convert decimal to binary
+def decimal_to_binary(decimal):
+    return bin(decimal).replace("0b", "")
+
+# Function to convert binary to decimal
+def binary_to_decimal(binary):
+    return int(binary, 2)
+
+# Sample usage of the functions
+decimal_number = 10.5
+binary_number = decimal_to_binary(decimal_number)
+print(f"Binary equivalent of {decimal_number} is: {binary_number}")
+
+binary_string = '1010.1'
+decimal_number = binary_to_decimal(binary_string)
+print(f"Decimal equivalent of binary {binary_string} is: {decimal_number}")
