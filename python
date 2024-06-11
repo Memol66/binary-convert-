@@ -1,8 +1,8 @@
-# Function to convert decimal to binary
+# Function to convert decimal to binary.
 def decimal_to_binary(decimal):
     return bin(decimal).replace("0b", "")
 
-# Function to convert binary to decimal
+# Function to convert binary to decimal.
 def binary_to_decimal(binary):
     return int(binary, 2)
 
