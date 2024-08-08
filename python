@@ -1,4 +1,4 @@
-# Function to convert decimal to binary.67464
+# Function to convert decimal to binary.674
 def decimal_to_binary(decimal):
     return bin(decimal).replace("0b", "")
 
